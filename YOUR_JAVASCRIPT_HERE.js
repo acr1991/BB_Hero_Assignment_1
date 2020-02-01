@@ -6,6 +6,8 @@
 //X Hero object should have an health property. The value health should be the number 10
 //X Hero object should have a weapon property. The value of weapon is an object with a type property which is a string and damage property which is 2
 //X console.log("Connetion Test");
+// Functions `rest, pickUpItem and equipWeapon` are all defined
+
 const hero = {
   name: `Alexander`,
   heroic: true,
@@ -14,4 +16,4 @@ const hero = {
   weapon: { type: `Bazooka`, damage: 2 }
 };
 
-console.log(hero);
+//console.log(hero);
